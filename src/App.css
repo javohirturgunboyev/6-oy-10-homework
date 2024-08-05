@@ -1,0 +1,29 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+nav ul {
+  display: flex;
+  list-style-type: none;
+}
+
+nav ul li {
+  margin: 0 15px;
+}
+
+header h1 {
+  font-size: 2em;
+}
+
+header p {
+  font-size: 1.2em;
+}
+
+section input {
+  padding: 10px;
+  margin-right: 5px;
+}
+
+section button {
+  padding: 10px;
+}

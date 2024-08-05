@@ -1,0 +1,49 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: ${(props) => props.theme.body};
+  color: ${(props) => props.theme.text};
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+  color: ${(props) => props.theme.primary};
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 15px;
+}
+
+.nav-links li {
+  margin: 0 10px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: ${(props) => props.theme.text};
+  font-size: 16px;
+}
+
+.auth-buttons {
+  display: flex;
+  gap: 10px;
+}
+
+.sign-in, .sign-up {
+  background-color: ${(props) => props.theme.primary};
+  border: none;
+  padding: 8px 15px;
+  color: #fff;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.sign-up {
+  background-color: ${(props) => props.theme.secondary};
+}
